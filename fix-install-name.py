@@ -16,6 +16,8 @@
     if you feel necessary, you may extend the script to support '@rpath', '@loader_path', '@executable_path'.
 
     please keep in mind that it is your own risk to run the script.
+    to run the script, type like:
+        python fix-install-name.py lib_list_yours.dylib
 '''
 
 import  os.path, subprocess, sys, commands
