@@ -3,7 +3,7 @@ python script to fix install name of a binary | (dynamic library) for Mac OS
 
 for knowledge of 'install name', please refer to
 https://www.mikeash.com/pyblog/friday-qa-2009-11-06-linking-and-install-names.html
-it gives concise understanding of 'install name'.
+, it gives concise understanding of 'install name'.
 
 when we install some libraries via 'automake', or 'cmake', sometimes the installed dynamic libraries are
 not installed with effective install names.
